@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Mobile Engineer with React Native</name>
+   <tag></tag>
+   <elementGuidId>2bad2d67-605f-4b40-9610-263c82373152</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='modalEventTitle']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#modalEventTitle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>5259f6f5-70f0-4a72-9559-2a397790f105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>modalEventTitle</value>
+      <webElementGuid>9db9df56-43d2-4030-8605-93a1f6f745a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Mobile Engineer with React Native</value>
+      <webElementGuid>68f19872-f348-4214-a6d4-1451d6ac6018</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modalEventTitle&quot;)</value>
+      <webElementGuid>7d104964-d6bf-4937-80ce-8eea0394de46</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='modalEventTitle']</value>
+      <webElementGuid>a6dfed13-5fb9-4c39-b5f1-add130300201</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=' Modal_Success']/div/div[2]/h2</value>
+      <webElementGuid>7fdf88bd-aa72-4316-903f-5794b50e560d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course berhasil ditambahkan ke pembelian!'])[1]/following::h2[1]</value>
+      <webElementGuid>9384b398-0532-4c7d-b698-edae13346137</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[2]/following::h2[1]</value>
+      <webElementGuid>dfea9059-10b8-4c33-9981-51b125ff5917</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Course Lainnya'])[1]/preceding::h2[1]</value>
+      <webElementGuid>026a7129-c29a-4728-83a7-f8c61a29def9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/h2</value>
+      <webElementGuid>e5f79e78-c685-4d55-8ad7-d6a9e89a3c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'modalEventTitle' and (text() = '
+                    Mobile Engineer with React Native' or . = '
+                    Mobile Engineer with React Native')]</value>
+      <webElementGuid>0d8003aa-d5b6-40df-b33e-5b77bfad5460</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

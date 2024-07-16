@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>title_Online Courses</name>
+   <tag></tag>
+   <elementGuidId>1480aef1-7edf-4c4d-907a-84c512b361f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[@id='jumbotronTitle']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#jumbotronTitle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>68c328b9-b930-47a1-b25e-761f3c1306d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>jumbotronTitle</value>
+      <webElementGuid>8473d316-2568-4aae-b084-2c88cd622368</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Online Courses
+        </value>
+      <webElementGuid>d0b9ea98-447d-440c-a54e-7343cd5b2467</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;jumbotronTitle&quot;)</value>
+      <webElementGuid>a3e0559d-af25-43b6-854e-787305154094</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h1[@id='jumbotronTitle']</value>
+      <webElementGuid>79dd05b6-e4a6-4bdf-b63f-86cc245dbf51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kelas Terbaru'])[1]/preceding::h1[1]</value>
+      <webElementGuid>3d1886a1-d6ce-4861-a0e3-9263630c3092</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Programming with Javascript'])[1]/preceding::h1[1]</value>
+      <webElementGuid>df7d6170-b4ea-4f3d-b9db-cfe08c711937</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Online Courses']/parent::*</value>
+      <webElementGuid>f6c7925f-db70-41f7-9d74-01f92878f378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>cf86778b-93b2-487e-a285-276b3da7991c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[@id = 'jumbotronTitle' and (text() = 'Online Courses
+        ' or . = 'Online Courses
+        ')]</value>
+      <webElementGuid>338cf3c2-69be-4c9b-9033-de65b63bba4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
