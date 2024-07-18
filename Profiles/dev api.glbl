@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Dev</name>
+   <name>dev api</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'dean.harefa10@gmail.com'</initValue>
+      <initValue>'https://demo-app.site'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'cihek19445@hempyl.com'</initValue>
       <name>email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/5S6MFFLcE5DAenbZpYNsQ=='</initValue>
+      <initValue>'P@ssw0rd'</initValue>
       <name>password</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://demo-app.site/'</initValue>
-      <name>URL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

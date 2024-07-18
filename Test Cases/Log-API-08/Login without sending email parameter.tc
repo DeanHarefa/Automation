@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login without sending email parameter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>426fb2c2-0df5-41d6-bc43-14dcec611c1f</testCaseGuid>
+</TestCaseEntity>
