@@ -15,7 +15,7 @@
       <guid>d8b290d6-ceeb-4156-a7ea-f0683e46bccb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login With DDT Script</testCaseId>
+      <testCaseId>Test Cases/Login/Log-WEB-02, Log-WEB-03, Log-WEB-04 dan Log-WEB-05/Login With DDT Script</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,17 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+TestData dataLogin = findTestData('Data Files/dataLoginInternal2')
 
-WebUI.navigateToUrl('https://demo-app.site/')
+WebUI.openBrowser(GlobalVariable.URL)
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/btnMasuk'))
 
-WebUI.verifyElementPresent(findTestObject('Login Page/title_Masuk'), 0)
+for (int i = 1; i <= dataLogin.getRowNumbers(); i++) {
+    WebUI.clearText(findTestObject('Login Page/input_Email'))
 
-WebUI.verifyElementPresent(findTestObject('Login Page/input_Email'), 0)
+    WebUI.clearText(findTestObject('Login Page/input_Kata Sandi'))
 
-WebUI.verifyElementPresent(findTestObject('Login Page/input_Kata Sandi'), 0)
+    String email = dataLogin.getValue(1, i)
+    String password = dataLogin.getValue(2, i)
 
-WebUI.closeBrowser()
+    WebUI.setText(findTestObject('Login Page/input_Email'), email)
+    WebUI.setText(findTestObject('Login Page/input_Kata Sandi'), password)
+    WebUI.click(findTestObject('Login Page/button_Login'))
+
+    // Jika email kosong
+    if (email.isEmpty()) {
+        WebUI.verifyEqual(WebUI.getAttribute(findTestObject('Login Page/input_Email'), 'validationMessage'), 'Please fill out this field.')
+        WebUI.comment('Email Empty')
+    }
+
+    // Jika password kosong
+    if (password.isEmpty()) {
+        WebUI.verifyEqual(WebUI.getAttribute(findTestObject('Login Page/input_Kata Sandi'), 'validationMessage'), 'Please fill out this field.')
+        WebUI.comment('Password Empty')
+    }
+}
 
