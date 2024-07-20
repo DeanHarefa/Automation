@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Homepage/btnCourse'))
 
 WebUI.click(findTestObject('Object Repository/Courses/CourseCard/img_Rp 5.000.000_imageHeader'))
 
-WebUI.click(findTestObject('Courses/CourseCardDetailPage/button_Take this Course'))
+WebUI.click(findTestObject('Courses/CourseCardDetailPage/button_Take this Course (1)'))
 
 WebUI.verifyElementPresent(findTestObject('Courses/CourseCardDetailPage/Pop Up Message Cart/h3_Course berhasil ditambahkan ke pembelian'), 
     5)
