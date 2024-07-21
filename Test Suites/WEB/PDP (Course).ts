@@ -12,31 +12,31 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>bd828eb4-babf-4bb3-a89e-f1dfa7710621</testSuiteGuid>
    <testCaseLink>
-      <guid>b32206b8-0c4b-4880-bbec-2d01c89423b0</guid>
+      <guid>9947e915-0b15-43ea-9cb6-8c10b1b0dca9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product Detail Page (Course)/Pdc-WEB-01/User Not Login and User Take Course</testCaseId>
+      <testCaseId>Test Cases/WEB/Product Detail Page (Course)/Pdc-WEB-01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3c27afda-012f-4448-b07c-292a8fd5ef66</guid>
+      <guid>09f54a46-fa53-4c42-9c04-dc4c32e9ac47</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product Detail Page (Course)/Pdc-WEB-04/User Login and User Take Course</testCaseId>
+      <testCaseId>Test Cases/WEB/Product Detail Page (Course)/Pdc-WEB-04</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bac3b021-ade0-4ac7-aa9a-8074b8f54486</guid>
+      <guid>ca1098f1-f3d4-47a6-a83e-2a8ee751121c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product Detail Page (Course)/Pdc-WEB-05/User Login and User View Learning Video</testCaseId>
+      <testCaseId>Test Cases/WEB/Product Detail Page (Course)/Pdc-WEB-05</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>07327944-d12f-4b5a-86ae-dda88d9dde07</guid>
+      <guid>cb5af425-bf9d-4a14-8ba3-18d7aecadc98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product Detail Page (Course)/Pdc-WEB-06/User Login and User View Courses In the Cart</testCaseId>
+      <testCaseId>Test Cases/WEB/Product Detail Page (Course)/Pdc-WEB-06</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

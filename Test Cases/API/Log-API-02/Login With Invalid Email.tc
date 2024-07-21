@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Login With Invalid Email</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>febe9ec4-1d08-4b15-be85-017755620124</testCaseGuid>
-</TestCaseEntity>

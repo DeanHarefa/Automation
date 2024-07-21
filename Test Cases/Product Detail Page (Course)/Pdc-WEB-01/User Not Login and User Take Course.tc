@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>User Not Login and User Take Course</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5ffec32b-0d41-4cca-bbb5-36273d09f970</testCaseGuid>
-</TestCaseEntity>
