@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Search for class doesnt exist</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>583969ad-fdf8-440f-ade7-13273629c3ed</testCaseGuid>
-</TestCaseEntity>

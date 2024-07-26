@@ -12,38 +12,38 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>b1c44cfd-4a28-4e8c-8de3-e9a8bf9848b6</testSuiteGuid>
    <testCaseLink>
-      <guid>2694e081-c4ce-4433-8dec-c4c393910901</guid>
+      <guid>8b4fa00b-9897-4104-a43b-41c4a937099f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product List Page (Course)/Cou-WEB-01/Open Course Menu</testCaseId>
+      <testCaseId>Test Cases/WEB/Product List Page (Course)/Cou-WEB-01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>735c8f7b-85a3-4990-a270-4adedc22794e</guid>
+      <guid>bdc45dd8-0c1b-4863-b8b4-bc123fad4c6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product List Page (Course)/Cou-WEB-02/Open Course Card</testCaseId>
+      <testCaseId>Test Cases/WEB/Product List Page (Course)/Cou-WEB-02</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6b4b65a5-5047-4819-a84a-8257d2ca1618</guid>
+      <guid>cad4556b-06f8-443a-9c3a-a6ec030fcdc6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product List Page (Course)/Cou-WEB-03/Search for class doesnt exist</testCaseId>
+      <testCaseId>Test Cases/WEB/Product List Page (Course)/Cou-WEB-03</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>16bc7e3a-6b8d-495d-951b-c761b9d556bb</guid>
+      <guid>6677f2d8-fde3-4693-a8fd-c374e1e7dbe5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product List Page (Course)/Cou-WEB-04/Search for available class</testCaseId>
+      <testCaseId>Test Cases/WEB/Product List Page (Course)/Cou-WEB-04</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7f064872-a72c-4b67-8060-de653ac6b765</guid>
+      <guid>ce462266-1805-4fff-803d-3f1e1f85f2a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product List Page (Course)/Cou-WEB-05/Join Coach Team</testCaseId>
+      <testCaseId>Test Cases/WEB/Product List Page (Course)/Cou-WEB-05</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
