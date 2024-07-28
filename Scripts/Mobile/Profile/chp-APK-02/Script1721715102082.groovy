@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\asus\\Downloads\\demo-app.site.apk', false)
+Mobile.startApplication('C:\\Users\\asus\\Downloads\\demo-app.site.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Button Profile'), 0)
 
@@ -31,33 +31,19 @@ Mobile.setEncryptedText(findTestObject('Object Repository/Mobile/Login/Input Pas
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Button Login'), 0)
 
-Mobile.tap(findTestObject('Mobile/Homepage/Button Profile'), 0)
+Mobile.tap(findTestObject('Mobile/Homepage/User already login/Button Profile'), 0)
 
-Mobile.verifyElementVisible(findTestObject('sampah/setting'), 5)
+Mobile.verifyElementVisible(findTestObject('Mobile/Profile/setting'), 5)
 
-Mobile.tap(findTestObject('sampah/setting'), 0)
+Mobile.tap(findTestObject('Mobile/Profile/setting'), 0)
 
-Mobile.verifyElementVisible(findTestObject('sampah/verify menu profile'), 5)
-
-
+Mobile.verifyElementVisible(findTestObject('Mobile/Profile/verify menu profile'), 5)
 
 
 
-//Mobile.tap(findTestObject('Mobile/sampah/Btn Edit Profile'), 0)
-//
-//Mobile.tap(findTestObject('Mobile/Profile/Click Button Fullname'), 0)
-//
-//Mobile.setText(findTestObject('Object Repository/Mobile/Profile/Edit Fullname'), 'Dean Yankris Harefa', 0)
-//
-//Mobile.tap(findTestObject('Mobile/Profile/Click Button Phone'), 0)
-//
-//Mobile.setText(findTestObject('Object Repository/Mobile/Profile/Edit Phone'), '08121907171', 0)
-//
-//Mobile.tap(findTestObject('Mobile/Profile/Click Button Birthdate'), 0)
-//
-//Mobile.setText(findTestObject('Object Repository/Mobile/Profile/Edit Phone'), '19 Jul 2017', 0)
-//
-//Mobile.tap(findTestObject('Mobile/Profile/Click Button Save Changes'), 0)
+
+
+
 
 Mobile.closeApplication()
 

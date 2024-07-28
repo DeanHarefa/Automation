@@ -17,33 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\asus\\Downloads\\demo-app.site.apk', true)
+WebUI.openBrowser(GlobalVariable.URL)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Button Profile'), 0)
+WebUI.maximizeWindow()
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Btn Login Here'), 0)
+WebUI.click(findTestObject('Homepage/btnMasuk'))
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Email'), 0)
+WebUI.setText(findTestObject('Login Page/input_Email'), GlobalVariable.email)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Login/Input Email'), 'dean.harefa10@gmail.com', 0)
+WebUI.setEncryptedText(findTestObject('Login Page/input_Kata Sandi'), GlobalVariable.password)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Password'), 0)
+WebUI.click(findTestObject('Login Page/button_Login'))
 
-Mobile.setEncryptedText(findTestObject('Object Repository/Mobile/Login/Input Password'), '/5S6MFFLcE5DAenbZpYNsQ==', 0)
+WebUI.click(findTestObject('Web/Change Profile/Icon Profile'))
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Button Login'), 0)
+WebUI.click(findTestObject('Web/Change Profile/btn My Account'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Web/Change Profile/Dashboard/btn_Profil'))
 
-Mobile.tap(findTestObject('Mobile/Homepage/User already login/Button Profile'), 0)
+WebUI.click(findTestObject('Web/Change Profile/Dashboard/btn_Edit Profile'))
 
-Mobile.checkElement(findTestObject('Mobile/Profile/information username'), 0)
+//WebUI.click(findTestObject('Web/Change Profile/Dashboard/icon change image profile'))
+WebUI.uploadFile(findTestObject('Web/Change Profile/Dashboard/icon change image profile'), 'C:\\Users\\asus\\git\\Automation\\Data External\\honey_lemon.jpg')
 
-Mobile.checkElement(findTestObject('Mobile/Profile/information email'), 0)
+WebUI.click(findTestObject('Web/Change Profile/Dashboard/button_Save Changes'))
 
-Mobile.checkElement(findTestObject('Mobile/Profile/information phone'), 0)
+WebUI.verifyElementPresent(findTestObject('Web/Change Profile/Dashboard/div_Berhasil'), 0)
 
-Mobile.checkElement(findTestObject('Mobile/Profile/information birthdate'), 0)
-
-Mobile.closeApplication()
+WebUI.verifyElementPresent(findTestObject('Web/Change Profile/Dashboard/modal Profile berhasil di edit'), 
+    0)
 

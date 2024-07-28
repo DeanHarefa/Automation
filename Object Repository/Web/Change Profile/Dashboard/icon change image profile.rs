@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon change image profile</name>
+   <tag></tag>
+   <elementGuidId>68cb70e7-08a1-49d2-bc73-1a62023eed27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='photo' and @accept='image/jpg']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.avatar-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>cc520cce-da10-4f6a-b955-82bf83b273b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/extra-images/icon/camera.png</value>
+      <webElementGuid>3b50d700-2a74-4ebc-ad05-4ce16647c931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>avatar-icon</value>
+      <webElementGuid>8e45391d-1aab-4355-8755-88ac4a6755a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>...</value>
+      <webElementGuid>15edc86b-edea-4840-a7d8-796da52e0543</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper main-wrapper-1&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;section-body&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card author-box&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-6&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;author-box-center&quot;]/figure[@class=&quot;avatar mr-2 avatar-xl&quot;]/label[1]/img[@class=&quot;avatar-icon&quot;]</value>
+      <webElementGuid>9b15e4f4-11fa-4ddd-b020-a6d6a5ec3a64</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div/figure/label/img</value>
+      <webElementGuid>2cb28237-e288-4e70-84e4-8b32841c5a4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='...']</value>
+      <webElementGuid>c0a6ba52-9fa1-4901-ae30-debbe0d447ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/img</value>
+      <webElementGuid>7dec8cbe-2a7a-4887-9e2a-a32a7db344b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/extra-images/icon/camera.png' and @alt = '...']</value>
+      <webElementGuid>c9ad4775-2114-40e3-ad4e-ab214969b6e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

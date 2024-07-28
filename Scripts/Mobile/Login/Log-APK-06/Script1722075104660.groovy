@@ -19,31 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\asus\\Downloads\\demo-app.site.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Button Profile'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Btn Login Here'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Homepage/User doesnt login/Btn Login Here'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Email'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Login/Input Email'), 'dean.harefa10@gmail.com', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Login/Input Email'), '', 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Password'), 0)
 
 Mobile.setEncryptedText(findTestObject('Object Repository/Mobile/Login/Input Password'), '/5S6MFFLcE5DAenbZpYNsQ==', 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Button Login'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Login/Click Button Login'), 5)
 
-WebUI.delay(5)
+String actualText = Mobile.getText(findTestObject('Object Repository/Mobile/Login/android.widget.TextView - Invalid Credential'), 5)
 
-Mobile.tap(findTestObject('Mobile/Homepage/User already login/Button Profile'), 0)
-
-Mobile.checkElement(findTestObject('Mobile/Profile/information username'), 0)
-
-Mobile.checkElement(findTestObject('Mobile/Profile/information email'), 0)
-
-Mobile.checkElement(findTestObject('Mobile/Profile/information phone'), 0)
-
-Mobile.checkElement(findTestObject('Mobile/Profile/information birthdate'), 0)
-
-Mobile.closeApplication()
-
+//kondisi benar saat run time
+assert actualText == "Email or password cannot be empty"
