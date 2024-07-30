@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Homepage/btnMasuk'))
+WebUI.click(findTestObject('Web/Homepage/btnMasuk'))
 
-WebUI.setText(findTestObject('Login Page/input_Email'), GlobalVariable.email)
+WebUI.setText(findTestObject('Web/Login Page/input_Email'), GlobalVariable.email)
 
-WebUI.setEncryptedText(findTestObject('Login Page/input_Kata Sandi'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('Web/Login Page/input_Kata Sandi'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Login Page/button_Login'))
+WebUI.click(findTestObject('Web/Login Page/button_Login'))
 
-WebUI.click(findTestObject('Homepage/btnCourse'))
+WebUI.click(findTestObject('Web/Homepage/btnCourse'))
 
-WebUI.click(findTestObject('Courses/CourseCard/img_CourseCardBasicProgrammingWithJavascript'))
+WebUI.click(findTestObject('Web/Courses/CourseCard/img_CourseCardBasicProgrammingWithJavascript'))
 
-WebUI.click(findTestObject('Object Repository/Courses/CourseCardDetailPage/button_Show Course'))
+WebUI.click(findTestObject('Object Repository/Web/Courses/CourseCardDetailPage/button_Show Course'))
 
-WebUI.click(findTestObject('Courses/CourseCardDetailPage/button_Play Video'))
+WebUI.click(findTestObject('Web/Courses/CourseCardDetailPage/button_Play Video'))
 
 WebUI.delay(5)
 
-boolean isPlaying = WebUI.verifyElementPresent(findTestObject('Courses/CourseCardDetailPage/video_element'), 10)
+boolean isPlaying = WebUI.verifyElementPresent(findTestObject('Web/Courses/CourseCardDetailPage/video_element'), 10)
 
 if (isPlaying) {
     println('Video is playing successfully')

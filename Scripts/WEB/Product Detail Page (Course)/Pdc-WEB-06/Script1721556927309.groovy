@@ -21,22 +21,22 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Homepage/btnMasuk'))
+WebUI.click(findTestObject('Web/Homepage/btnMasuk'))
 
-WebUI.setText(findTestObject('Login Page/input_Email'), GlobalVariable.email)
+WebUI.setText(findTestObject('Web/Login Page/input_Email'), GlobalVariable.email)
 
-WebUI.setEncryptedText(findTestObject('Login Page/input_Kata Sandi'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('Web/Login Page/input_Kata Sandi'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Login Page/button_Login'))
+WebUI.click(findTestObject('Web/Login Page/button_Login'))
 
-WebUI.click(findTestObject('Homepage/btnCourse'))
+WebUI.click(findTestObject('Web/Homepage/btnCourse'))
 
-WebUI.click(findTestObject('Courses/CourseCard/img_Rp 5.000.000_imageHeader'))
+WebUI.click(findTestObject('Web/Courses/CourseCard/img_Rp 5.000.000_imageHeader'))
 
-WebUI.click(findTestObject('Object Repository/Courses/CourseCardDetailPage/button_Take to Chart'))
+WebUI.click(findTestObject('Object Repository/Web/Courses/CourseCardDetailPage/button_Take to Chart'))
 
-WebUI.verifyElementPresent(findTestObject('Cart/h4_Pembelian Saya'), 0)
+WebUI.verifyElementPresent(findTestObject('Web/Cart/h4_Pembelian Saya'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Cart/h3_Mobile Engineer with React Native'), 0)
+WebUI.verifyElementPresent(findTestObject('Web/Cart/h3_Mobile Engineer with React Native'), 0)
 
 WebUI.closeBrowser()

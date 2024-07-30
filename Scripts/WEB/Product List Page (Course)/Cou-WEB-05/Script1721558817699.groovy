@@ -21,9 +21,9 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage/btnCourse'))
+WebUI.click(findTestObject('Web/Homepage/btnCourse'))
 
-WebUI.click(findTestObject('Object Repository/Courses/button_Join Now'))
+WebUI.click(findTestObject('Object Repository/Web/Courses/button_Join Now'))
 
 WebUI.switchToWindowTitle('Google Forms: Sign-in')
 

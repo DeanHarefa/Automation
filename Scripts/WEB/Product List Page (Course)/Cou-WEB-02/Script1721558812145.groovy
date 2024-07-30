@@ -21,14 +21,14 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Homepage/btnCourse'))
+WebUI.click(findTestObject('Web/Homepage/btnCourse'))
 
-WebUI.click(findTestObject('Object Repository/Courses/CourseCard/img_CourseCardBasicProgrammingWithJavascript'))
+WebUI.click(findTestObject('Object Repository/Web/Courses/CourseCard/img_CourseCardBasicProgrammingWithJavascript'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Courses/CourseCardDetailPage/title_Basic Programming with Javascript'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Web/Courses/CourseCardDetailPage/title_Basic Programming with Javascript'), 
     5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Courses/CourseCardDetailPage/detail_Basic Programming With Javascript'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Web/Courses/CourseCardDetailPage/detail_Basic Programming With Javascript'), 
     5)
 
 WebUI.closeBrowser()

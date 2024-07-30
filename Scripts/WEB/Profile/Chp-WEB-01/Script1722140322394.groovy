@@ -21,13 +21,13 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Homepage/btnMasuk'))
+WebUI.click(findTestObject('Web/Homepage/btnMasuk'))
 
-WebUI.setText(findTestObject('Login Page/input_Email'), GlobalVariable.email)
+WebUI.setText(findTestObject('Web/Login Page/input_Email'), GlobalVariable.email)
 
-WebUI.setEncryptedText(findTestObject('Login Page/input_Kata Sandi'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('Web/Login Page/input_Kata Sandi'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Login Page/button_Login'))
+WebUI.click(findTestObject('Web/Login Page/button_Login'))
 
 WebUI.click(findTestObject('Web/Change Profile/Icon Profile'))
 

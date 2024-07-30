@@ -21,16 +21,16 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Homepage/btnCourse'))
+WebUI.click(findTestObject('Object Repository/Web/Homepage/btnCourse'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Courses/title_Online Courses'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Web/Courses/title_Online Courses'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Courses/card_Basic Programming with Javascript'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Web/Courses/card_Basic Programming with Javascript'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Courses/card_Frontend Engineer with ReactJS'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Web/Courses/card_Frontend Engineer with ReactJS'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Courses/card_Mobile Engineer with React Native'), 0)
+WebUI.verifyElementPresent(findTestObject('Web/Courses/card_Mobile Engineer with React Native'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Courses/card_Starter to Express JS API'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Web/Courses/card_Starter to Express JS API'), 0)
 
 WebUI.closeBrowser()

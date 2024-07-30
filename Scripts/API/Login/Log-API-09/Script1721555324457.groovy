@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('POST Login', [('email') : GlobalVariable.email]))
+response = WS.sendRequest(findTestObject('API/POST Login', [('email') : GlobalVariable.email]))
 
 WS.verifyResponseStatusCode(response, 401)
 

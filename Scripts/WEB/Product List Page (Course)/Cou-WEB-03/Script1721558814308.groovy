@@ -21,10 +21,10 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Homepage/btnCourse'))
+WebUI.click(findTestObject('Web/Homepage/btnCourse'))
 
-WebUI.setText(findTestObject('Object Repository/Courses/searchbox_Course'), 'Phython')
+WebUI.setText(findTestObject('Object Repository/Web/Courses/searchbox_Course'), 'Phython')
 
-WebUI.verifyElementPresent(findTestObject('Courses/errorMessage_SearchCourseNotFound'), 0)
+WebUI.verifyElementPresent(findTestObject('Web/Courses/errorMessage_SearchCourseNotFound'), 0)
 
 WebUI.closeBrowser()

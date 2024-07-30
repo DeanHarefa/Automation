@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Rp 5.000.000_imageHeader</name>
+   <tag></tag>
+   <elementGuidId>e07582ab-ab60-4242-b0bd-5bb7f289cff8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@id='containerCard']/div/a/div/img)[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>fe5ab9e1-0114-4aa9-85b0-b89b878f4ae3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://storage.googleapis.com/codingid-storage-bucket/storage/uploads/lp-course-image/1663321645ezgif.com-gif-maker (3).webp</value>
+      <webElementGuid>42732466-3ed1-45e9-889a-a3b0d85f1238</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>imageHeader</value>
+      <webElementGuid>c90993a4-9c11-42a8-8c84-5694d2a4dbfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>course banner</value>
+      <webElementGuid>2f6cb893-3723-4d9a-9aea-68168fa28475</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>course banner</value>
+      <webElementGuid>c4638551-5747-4ecd-bee2-2e5ea22a9fd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loopevent&quot;)/li[@id=&quot;containerCard&quot;]/div[@class=&quot;cardOuter&quot;]/a[1]/div[@class=&quot;cardHeader&quot;]/img[@class=&quot;imageHeader&quot;]</value>
+      <webElementGuid>705f8251-bdb2-4456-8ac6-ddebb102a2c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//li[@id='containerCard']/div/a/div/img)[3]</value>
+      <webElementGuid>02b2a0e0-381e-4f84-a584-6897bdea8928</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='course banner'])[3]</value>
+      <webElementGuid>a915a05f-a91f-4397-a7ea-2c3b2b1806d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/a/div/img</value>
+      <webElementGuid>ec89b391-5b17-4f44-8a23-b756a811ff13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://storage.googleapis.com/codingid-storage-bucket/storage/uploads/lp-course-image/1663321645ezgif.com-gif-maker (3).webp' and @alt = 'course banner' and @title = 'course banner']</value>
+      <webElementGuid>3a0d3660-8b14-4dd8-a5b1-879ec115c346</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
