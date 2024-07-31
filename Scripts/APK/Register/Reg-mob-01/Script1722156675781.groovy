@@ -19,7 +19,4 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\asus\\Downloads\\demo-app.site.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Homepage/User doesnt login/Btn Login Here'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Register/android.widget.TextView - Dont have an account yet Register, now'), 0)
 
