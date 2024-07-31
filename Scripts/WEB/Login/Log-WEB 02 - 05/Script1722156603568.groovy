@@ -55,7 +55,7 @@ for (int i=1; i <= dataLogin.getRowNumbers(); i++ ) {
 	
 }
 
-
+//WebUI.click(findTestObject('Web/Homepage/btnMasuk'))
 
 WebUI.closeBrowser()
 
